@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_a74a0c8715c3b4e68f9635950e22913b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_a74a0c8715c3b4e68f9635950e22913b" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_a74a0c8715c3b4e68f9635950e22913b = L.map(
+                "map_a74a0c8715c3b4e68f9635950e22913b",
+                {
+                    center: [20.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 2,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_63246901ac62c35794a1eb7d65a781f0 = L.tileLayer(
+                "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_a74a0c8715c3b4e68f9635950e22913b);
+        
+    
+            var marker_2b87a4b7cc6f5a5e08375de90330ea0e = L.marker(
+                [37.0902, -95.7129],
+                {}
+            ).addTo(map_a74a0c8715c3b4e68f9635950e22913b);
+        
+    
+            var icon_0dc6e9db6efdc60cdb6a4f1b9e002f82 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2b87a4b7cc6f5a5e08375de90330ea0e.setIcon(icon_0dc6e9db6efdc60cdb6a4f1b9e002f82);
+        
+    
+        var popup_a5da15d6c0cfde7c566fb7ac9b0e9b32 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5b93847206baf49bba8b696c17be3c96 = $(`<div id="html_5b93847206baf49bba8b696c17be3c96" style="width: 100.0%; height: 100.0%;"><b>United States</b><br>Federal & State Laws</div>`)[0];
+            popup_a5da15d6c0cfde7c566fb7ac9b0e9b32.setContent(html_5b93847206baf49bba8b696c17be3c96);
+        
+
+        marker_2b87a4b7cc6f5a5e08375de90330ea0e.bindPopup(popup_a5da15d6c0cfde7c566fb7ac9b0e9b32)
+        ;
+
+        
+    
+    
+            marker_2b87a4b7cc6f5a5e08375de90330ea0e.bindTooltip(
+                `<div>
+                     United States
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4a74ad5946443080c59141f261f770ee = L.marker(
+                [51.5074, -0.1278],
+                {}
+            ).addTo(map_a74a0c8715c3b4e68f9635950e22913b);
+        
+    
+            var icon_d2f4d85ce2254b473a01ae445f450d70 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4a74ad5946443080c59141f261f770ee.setIcon(icon_d2f4d85ce2254b473a01ae445f450d70);
+        
+    
+        var popup_f9d99776c75966ed6f6db184d4877fd3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d2e2c8ea874ab1571c35c2617094e0fe = $(`<div id="html_d2e2c8ea874ab1571c35c2617094e0fe" style="width: 100.0%; height: 100.0%;"><b>United Kingdom</b><br>Common Law System</div>`)[0];
+            popup_f9d99776c75966ed6f6db184d4877fd3.setContent(html_d2e2c8ea874ab1571c35c2617094e0fe);
+        
+
+        marker_4a74ad5946443080c59141f261f770ee.bindPopup(popup_f9d99776c75966ed6f6db184d4877fd3)
+        ;
+
+        
+    
+    
+            marker_4a74ad5946443080c59141f261f770ee.bindTooltip(
+                `<div>
+                     United Kingdom
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2aed21c819c574aa2c82c8285847259e = L.marker(
+                [56.1304, -106.3468],
+                {}
+            ).addTo(map_a74a0c8715c3b4e68f9635950e22913b);
+        
+    
+            var icon_c2b9358564090be796def3bf0cb3a26b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2aed21c819c574aa2c82c8285847259e.setIcon(icon_c2b9358564090be796def3bf0cb3a26b);
+        
+    
+        var popup_f42626015763868351aa6898b76b5ec6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_562e933e1655a69214308901f89b0120 = $(`<div id="html_562e933e1655a69214308901f89b0120" style="width: 100.0%; height: 100.0%;"><b>Canada</b><br>Federal & Provincial Laws</div>`)[0];
+            popup_f42626015763868351aa6898b76b5ec6.setContent(html_562e933e1655a69214308901f89b0120);
+        
+
+        marker_2aed21c819c574aa2c82c8285847259e.bindPopup(popup_f42626015763868351aa6898b76b5ec6)
+        ;
+
+        
+    
+    
+            marker_2aed21c819c574aa2c82c8285847259e.bindTooltip(
+                `<div>
+                     Canada
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0cbaa081c649a1cdebe064ff0ed22b06 = L.marker(
+                [51.1657, 10.4515],
+                {}
+            ).addTo(map_a74a0c8715c3b4e68f9635950e22913b);
+        
+    
+            var icon_e06754d8da1df1907052f791c068a967 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0cbaa081c649a1cdebe064ff0ed22b06.setIcon(icon_e06754d8da1df1907052f791c068a967);
+        
+    
+        var popup_8d1681632ad5eb6771959a060fa09108 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2b72e8de4c38e725eb18c3a87b762201 = $(`<div id="html_2b72e8de4c38e725eb18c3a87b762201" style="width: 100.0%; height: 100.0%;"><b>Germany</b><br>Civil Law System</div>`)[0];
+            popup_8d1681632ad5eb6771959a060fa09108.setContent(html_2b72e8de4c38e725eb18c3a87b762201);
+        
+
+        marker_0cbaa081c649a1cdebe064ff0ed22b06.bindPopup(popup_8d1681632ad5eb6771959a060fa09108)
+        ;
+
+        
+    
+    
+            marker_0cbaa081c649a1cdebe064ff0ed22b06.bindTooltip(
+                `<div>
+                     Germany
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_73893339ea3aaa565058ad7a0bed8dcf = L.marker(
+                [20.5937, 78.9629],
+                {}
+            ).addTo(map_a74a0c8715c3b4e68f9635950e22913b);
+        
+    
+            var icon_0a94100f4ead7368ff14143eb2cac22e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_73893339ea3aaa565058ad7a0bed8dcf.setIcon(icon_0a94100f4ead7368ff14143eb2cac22e);
+        
+    
+        var popup_6029a0efe70c81d3d6784668adba467a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2113a137b782cdff795b5bebfee8722f = $(`<div id="html_2113a137b782cdff795b5bebfee8722f" style="width: 100.0%; height: 100.0%;"><b>India</b><br>Indian Penal Code & Local Laws</div>`)[0];
+            popup_6029a0efe70c81d3d6784668adba467a.setContent(html_2113a137b782cdff795b5bebfee8722f);
+        
+
+        marker_73893339ea3aaa565058ad7a0bed8dcf.bindPopup(popup_6029a0efe70c81d3d6784668adba467a)
+        ;
+
+        
+    
+    
+            marker_73893339ea3aaa565058ad7a0bed8dcf.bindTooltip(
+                `<div>
+                     India
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_11e3fcf245ee9bc8accfc21326cd23b6 = L.marker(
+                [-25.2744, 133.7751],
+                {}
+            ).addTo(map_a74a0c8715c3b4e68f9635950e22913b);
+        
+    
+            var icon_44f22a23bdada9eb942fa4555f535894 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_11e3fcf245ee9bc8accfc21326cd23b6.setIcon(icon_44f22a23bdada9eb942fa4555f535894);
+        
+    
+        var popup_3af4b76658fc53b8dcf02ea7136f013d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3800b067e7916739efebf57f15d22f60 = $(`<div id="html_3800b067e7916739efebf57f15d22f60" style="width: 100.0%; height: 100.0%;"><b>Australia</b><br>State & Federal Laws</div>`)[0];
+            popup_3af4b76658fc53b8dcf02ea7136f013d.setContent(html_3800b067e7916739efebf57f15d22f60);
+        
+
+        marker_11e3fcf245ee9bc8accfc21326cd23b6.bindPopup(popup_3af4b76658fc53b8dcf02ea7136f013d)
+        ;
+
+        
+    
+    
+            marker_11e3fcf245ee9bc8accfc21326cd23b6.bindTooltip(
+                `<div>
+                     Australia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d4ba2f5dad5a19e4b83beaefac1b272b = L.marker(
+                [-30.5595, 22.9375],
+                {}
+            ).addTo(map_a74a0c8715c3b4e68f9635950e22913b);
+        
+    
+            var icon_72372d57e9825a82cdb55cef143f9dc3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d4ba2f5dad5a19e4b83beaefac1b272b.setIcon(icon_72372d57e9825a82cdb55cef143f9dc3);
+        
+    
+        var popup_b667beb5fc2dbf6353472f4dc13d5d9b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c0ea590737f3a3f58d2fa3d1f145e612 = $(`<div id="html_c0ea590737f3a3f58d2fa3d1f145e612" style="width: 100.0%; height: 100.0%;"><b>South Africa</b><br>Mixed Legal System</div>`)[0];
+            popup_b667beb5fc2dbf6353472f4dc13d5d9b.setContent(html_c0ea590737f3a3f58d2fa3d1f145e612);
+        
+
+        marker_d4ba2f5dad5a19e4b83beaefac1b272b.bindPopup(popup_b667beb5fc2dbf6353472f4dc13d5d9b)
+        ;
+
+        
+    
+    
+            marker_d4ba2f5dad5a19e4b83beaefac1b272b.bindTooltip(
+                `<div>
+                     South Africa
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
